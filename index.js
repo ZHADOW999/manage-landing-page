@@ -18,8 +18,8 @@ mysubmit.onclick = function(){
         error.textContent = "Thank you for subscribing !";
     }  
 
-    else{
-       
+    else if (!emailText.value.match(emailRegex)){
+        error.style.color="red"
         error.textContent = "Please provide a Valid email";
     }
 }
