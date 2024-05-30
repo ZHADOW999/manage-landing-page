@@ -779,6 +779,12 @@ h4{
         top: -6rem;
         right: -6rem;
     }
+
+    .section-4{
+    background-size: 300%;
+    background-position:30% 100%;
+
+}
 }
 
 @media (max-width:412px){
